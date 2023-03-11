@@ -15,13 +15,13 @@ website: www.github.com/LeonardoSerranoL
 darkmode: false
 
 # Social links
-twitter_username: facespics
+#twitter_username: facespics
 github_username:  LeonardoSerranoL
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jameswgrant
+instagram_username: jameswgrant
 linkedin_username: LeonardoDanielSerranoLuna
 # xing_username: jekyll
 # pinterest_username: jekyll
@@ -30,10 +30,10 @@ linkedin_username: LeonardoDanielSerranoLuna
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+ # icon: fas fa-globe
+  #url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,14 +46,13 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/Profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
+  Hi, my name's Leonardo Serrano and I'm a skilled Mechanical and Electrical Engineer, specialized in Finite Element Analysis and Systems Mechanical Design. As well as I have experience in programming languages. 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -90,27 +89,31 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Institut National des Sciences Appliquées de Toulouse (INSA Toulouse)
+        caption: September 2022 - January 2023
+        sub_title: Mechanical Engineering
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          The Institut National des Sciences Appliquées de Toulouse is a French grande école of engineering, under the authority of the French Ministry of Education and Research. Situated in Toulouse, this school is one of the 6 state engineering institutes that compose the INSA's network.
+The school was founded in 1963 to train highly qualified engineers, foster continuous training and scientific research. It is a member of the University of Toulouse since 2007. Even though INSA Toulouse is highly selective, diversity and international openness are two values to which INSA Toulouse gives priority
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at INSA I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          
+          I worked in several projects as Mechanical Power Transmission Systems using CATIA, Post Buckling Effects in Aeronautical Structures using Abaqus and Mechanical Systems Design using Dymola
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I developed my social skills participating in Foreign Activities, Judo's classes and 
+          
+    content:
+      - layout: left
+        title: Benemérita Universidad Autónoma de Puebla
+        caption: August 2018 - Est 2023
+        sub_title: Mechanical and Electrical Engineering
+        quote: >
+          The Benemérita Universidad Autónoma de Puebla (BUAP) is a Mexican university based in Puebla. The university was founded by Spanish Jesuits on 14 April 1578 as the Colegio del Espíritu Santo (College of the Holy Spirit), and became a public university after Mexican independence in 1825. It belongs to the 150 international schools and institutions that are members of the ALICE experiment launched by the European Organization for Nuclear Research (CERN).
+        description: | # this will include new lines to allow paragraphs
+          During my time at BUAP I have adquired my knowledge, scientific and human skills to excell in the global context the I have participated in several courses as "Introduction to the Finite Element Analysis" [2021] and "Machine Learning with Python" [2022].
+          
+          I have been staff volunteer for the Covid Vaccination days
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
